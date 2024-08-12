@@ -1,6 +1,7 @@
 public class Customer {
-    String name;
-    int age;
+    String name, name2;
+    int age,age2,cfcElo;
     float money;
+
 
 }
