@@ -13,6 +13,7 @@ public class Customer {
 
         if (age >= 18 && age <= 64) {
             money = money - 12;
+            //hello
 
         }
 
