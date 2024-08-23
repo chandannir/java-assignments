@@ -11,6 +11,18 @@ public class CustomerConstructorTestProgram {
         System.out.println("Dottie looks like this: " +  c2.name + ", " + c2.age + ", " + c2.money);
         System.out.println("Jane 3 looks like this: " + c3.name + ", " + c3.age + ", "  + c3.money);
         System.out.println("Customer 4 looks like this: " + c2.name + ", " + c4.age + ", "  + c4.money);
+
+        System.out.println("Bob's fee is $" + c1.computeFee());
+        System.out.println("Dottie's fee is $" + c2.computeFee());
+        c3.age = 23;
+        System.out.println("Jane's fee is $" + c3.computeFee());
+        c4.age = 67;
+        System.out.println("No Name's fee is $" + c4.computeFee());
+
+        c2.spend(-80);
+        System.out.println("Dottie's money remaining is $" + c2.money);
+
+
     }
 
 }
