@@ -17,5 +17,10 @@ public class CustomerSpendingTestProgram {
         if (!c1.spend(100.00f))
             System.out.println("Unable to spend $100");
         System.out.println(c1.money);
+
+        System.out.println("Bob has more money than Dottie: " +
+                c1.hasMoreMoneyThan(c2));
+        System.out.println("Dottie has more money than Jane: " +
+                c2.hasMoreMoneyThan(c3));
     }
 }

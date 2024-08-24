@@ -45,5 +45,22 @@ public class Customer {
      return overUnder;
     }
 
+    public boolean hasMoreMoneyThan(Customer c){
+        boolean hasMoreMoney = false;
+
+        if( money > money) {
+            hasMoreMoney = true;
+        }else if(money < money){
+            hasMoreMoney = false;
+        }
+
+
+        return hasMoreMoney;
+    }
+
+    public void payAdmission(){
+
+    }
+
 
 }
